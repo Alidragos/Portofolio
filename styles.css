@@ -1,4 +1,37 @@
+body {
+  background: rgb(248, 244, 244);
+}
 
-.header {
-  font-size: 20px;
+.mobile-container {
+  max-width: 375px;
+  margin: auto;
+  margin-top: 60px;
+  background-image: url('header-background-mobile.png');
+  height: 718px;
+  border-radius: 10px;
+}
+
+.box-one {
+  float: left;
+  padding: 10px;
+  margin: 10px;
+}
+
+.box-two {
+  float: right;
+  padding: 10px;
+  margin: 20px;
+  color: blueviolet;
+}
+
+.box-one a {
+  text-decoration: none;
+  color: blueviolet;
+}
+
+.box-two a:hover {
+  color: rgb(23, 20, 26);
+  border-radius: 3px;
+  border: none;
+  transition: all 0.3s ease;
 }
