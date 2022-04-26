@@ -1,19 +1,31 @@
 body {
-  background: rgb(248, 244, 244);
+  background-color: antiquewhite;
 }
 
-.mobile-container {
-  max-width: 375px;
+.container {
+  display: flex;
+  flex-direction: column;
   margin: auto;
+  max-width: 375px;
   margin-top: 60px;
-  background-image: url('header-background-mobile.png');
   height: 718px;
-  border-radius: 10px;
+  background-image: url('header-background-mobile.png');
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.box {
+  flex-grow: 1;
+}
+
+.box2 {
+  display: grid;
+  justify-content: center;
+  padding: 30px;
 }
 
 .box-one {
   float: left;
-  padding: 10px;
+  padding: 15px;
   margin: 10px;
 }
 
@@ -22,6 +34,7 @@ body {
   padding: 10px;
   margin: 20px;
   color: blueviolet;
+  font-size: larger;
 }
 
 .box-one a {
@@ -30,8 +43,19 @@ body {
 }
 
 .box-two a:hover {
-  color: rgb(23, 20, 26);
+  color: red;
   border-radius: 3px;
   border: none;
   transition: all 0.3s ease;
+}
+
+.box3 a:hover {
+  color: red;
+  border-radius: 3px;
+  border: none;
+  transition: all 0.3s ease;
+}
+
+.box3 {
+  margin: 40px;
 }
