@@ -1,5 +1,5 @@
 body {
-  background-color: antiquewhite;
+  background-color: #e5e5e5;
 }
 
 .container {
@@ -10,7 +10,7 @@ body {
   margin-top: 60px;
   height: 718px;
   background-image: url('header-background-mobile.png');
-  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-family: 'Poppins', sans-serif;
 }
 
 .box {
@@ -21,6 +21,10 @@ body {
   display: grid;
   justify-content: center;
   padding: 30px;
+  line-height: 35px;
+  margin-bottom: 30px;
+  font-weight: 700;
+  color: #344563;
 }
 
 .box-one {
@@ -33,13 +37,17 @@ body {
   float: right;
   padding: 10px;
   margin: 20px;
-  color: blueviolet;
+  color: #6070ff;
   font-size: larger;
 }
 
 .box-one a {
   text-decoration: none;
-  color: blueviolet;
+  color: #6070ff;
+}
+
+a:link {
+  color: #6070ff;
 }
 
 .box-two a:hover {
@@ -58,4 +66,24 @@ body {
 
 .box3 {
   margin: 40px;
+}
+
+ul#menu li {
+  display: inline;
+  color: #6070ff;
+}
+
+#menu li a {
+  color: #505f79;
+  margin: 5px;
+}
+
+h4 {
+  color: #6070ff;
+}
+
+h1 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  color: #172b4d;
 }
